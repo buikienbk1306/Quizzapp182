@@ -1,0 +1,359 @@
+/*<---------------------- header-top ------------------------------->*/
+*{
+    box-sizing: border-box;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid rgb(206,200,200);
+    
+}
+.header-top-left{
+    display: flex;
+    flex-direction: row;
+
+}
+.header-top-left a{
+    padding: 0px 10px ;
+    font-size: .875rem;
+    color: inherit;
+    line-height: 1.25rem;
+}
+.header-top-right{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header-top-right a{
+    padding: 0px 10px ;
+    font-size: .875rem;
+    color: inherit;
+    line-height: 1.25rem;
+    padding: 0 20px;
+}
+.image-1{
+    height: 16px;
+    width: 16px;
+}
+.icon-top{
+    font-size: 16px;
+}
+
+
+
+
+/*<---------------------- header-bottom ------------------------------->*/
+.header-bottom{
+    width: 100%;
+
+}
+.navbar-1{
+    padding: 16px 60px !important;
+}
+.nav-1 {
+width: 100%;
+display: flex;
+}
+.nav-1 .dropdown {
+position: static;
+}
+.nav-1 .dropdown-menu.mega-menu {
+width: 100%;
+margin-top: 0;
+padding: 0;
+border-color: #ccc;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.NEW{
+    display: flex;
+}
+.NEW-1{
+    width: 33.33%;
+}
+.WOMEN{
+    display: flex;
+}
+.WOMEN-1{
+    width: 33.33%;
+}
+.text-1{
+    font-size: 30px;
+    font-weight: 600 !important;
+    padding-right: 30px;
+    color: black;
+}
+.menu-middle{
+    padding: 12px 0px;
+}
+.text-2{
+    line-height: 1rem;
+    font-weight: 500;
+    color: inherit;
+    font-size: .8125rem;
+    letter-spacing: .05rem;
+    padding: 15px 15px;
+}
+.text-3{
+    padding-top: 30px;
+}
+.text-4{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.text-5{
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: inherit; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-6{
+    padding-top: 30px;
+background-color: #f6f5f3;
+height: 100%;
+}
+/* image-------------------------- */
+.image-2{
+    height: 100%;
+    width: 100%;
+    border: solid 15px green;
+}
+/* input--------------------------- */
+.input-1{
+    padding: 0px;
+    padding-left: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.input-2{
+    height: 45px;
+    width: 40px;
+    background-color: #f6f5f3;
+}
+.input-3{
+    padding: 14px 13px;
+}
+.input-4{
+    width: 400px;
+    height: 45px;
+    background-color: #f6f5f3;
+    border: none;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* ----------------------content-main-2------------------------- */
+.content-main-2{
+    width: 100%;
+}
+.content-2{
+    padding: 45px 20px;
+}
+
+.content-2-1 h2 {
+    font-size: 2.125rem;
+    letter-spacing: 0;
+    line-height: 2.25rem;
+    color: inherit;
+    font-weight: 700;
+    text-align: center;
+}
+.content-2-2{
+    padding:  15px 0px;
+    display: flex;
+    justify-content: center;
+}
+.show-1{
+    text-align: center;
+    background-color: #19110b;
+    width: 15rem;
+    padding: 15px 20px;
+}
+.show-1 a{
+    color: white;
+}
+.show-2{
+    text-align: center;
+    border: solid black 1px;
+    width: 15rem;
+    background-color: white;
+    padding: 15px 20px;
+}
+.show-2 a{
+    color: black;
+}
+/* ----------------------content-main-3------------------------- */
+.content-main-3{
+    width: 100%;
+}
+.content-3{
+    width: 100%;
+    display: flex;
+}
+.content-3-1{
+    width: 50%;
+    border-top: solid rgb(206,200,200) 1px;
+}
+.image-3{
+    padding: 50px 50px;
+    width: 100%;
+}
+.content-3-2{
+    width: 50%;
+    border-top: solid rgb(206,200,200) 1px;
+    border-left: solid rgb(206,200,200) 1px;
+}
+/*--------------- content-3-2-top--------------- */
+.content-3-2-top{
+    width: 100%;
+    padding: 100px 100px;
+}
+.shop-online-1{
+    display: flex;
+    justify-content: center;
+}
+.shop-online-1 h2{
+    font-size: 2.125rem;
+    letter-spacing: 0;
+    line-height: 2.25rem;
+    color: inherit;
+    font-weight: 700;
+    padding: 18px 0px;
+}
+.shop-online-2{
+    display: flex;
+    justify-content: center;
+       
+}
+.shop-online-2 a{
+    color: #fff;
+    line-height: 1;
+    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-size: 1rem;
+    padding: 18px 45px;
+    background-color: black;
+}
+/*--------------- content-3-2-bottom--------------- */
+.content-3-2-bottom{
+    width: 100%;
+    padding: 20px 80px;
+    border-top: solid rgb(206,200,200) 1px;
+}
+.image-4{
+    padding: 50px 0px;
+    width: 100%;
+}
+.shop-online-5{
+    display: flex;
+    justify-content: center;
+}
+.shop-online-5 a{
+    font-size: 2.125rem;
+    letter-spacing: 0;
+    line-height: 2.25rem;
+    color: inherit;
+    font-weight: 700;
+}
+.shop-online-6{
+    display: flex;
+    justify-content: center;
+}
+.shop-online-6 a{
+    font-size: 1.125rem;
+    letter-spacing: .025rem;
+    line-height: 2rem;
+    font-weight: 100;
+    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: black;
+    padding: 20px 0px;
+}
+/*--------------- content-3-3----------------------- */
+.content-main-4{
+    width: 100%;
+    display: flex;
+    border-top: solid  rgb(206,200,200) 1px;
+    border-bottom: solid rgb(206,200,200) 1px;
+}
+.content-4{
+    width: 100%;
+    display: flex;
+}
+.content-4-1{
+    width: 33.33%;
+}
+.add{
+    border-left: solid rgb(206,200,200) 1px ;
+    border-right: solid rgb(206,200,200) 1px;
+}
+.image-5{
+    display: flex;
+    justify-content: center;
+    
+}
+.image-5 img{
+    width: 100%;
+    padding: 50px 20px;
+}
+.text-8{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.text-8 a{
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    line-height: 1.75rem;
+    font-weight: 700;
+    color: #19110b;
+}
+/*--------------- footer----------------------- */
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.footer-main{
+    padding: 20px 100px;    
+}
+.footer-1{
+    border-bottom: 1px solid #392d23 ;
+    padding: 30px 0px;
+}
+.footer-1 a{
+    color: white;    
+}
+.footer-2{
+    display: flex;
+}
+.text-9{
+    padding: 50px 0px;
+    color: white;
+    
+    list-style-type: none;
+    display: flex;
+    align-items: center;    
+}
+.text-9 li{
+    padding-right: 100px;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+
+
+
+  
